@@ -1,0 +1,33 @@
+body{
+  margin: 0%;
+}
+img{
+  max-width: 100%;
+}
+
+header{
+    background: purple;
+  height: 60px;
+} 
+header h1{
+  margin: 0%;
+  color: #fff;
+  padding: 10px; /** margem interna **/
+}
+
+main{
+  width: 500px;
+  border: 1px solid #000;
+  padding: 80px;;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img{
+  border-radius: 50%;
+  background-color: #f2dfd5;
+  width: 300px;
+  border: 5px solid purple;
+}
