@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+
+header{
+  background-color: orange;
+}
+
+main{
+  height: calc(100vh - 150px);
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer{
+  background-color: purple;
+  height: 60px;
+}
+
+header, footer{
+  height: 60px;
+}
+
+main div{
+  width: 33%;
+  height: 100%;
+  background-color: blue;
+}
+
+@media (max-width: 768px){
+  main{
+    height: auto;
+  }
+  main div{
+    width: 45%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 576px){
+  main div{
+    width: 98%;
+  }
+}
