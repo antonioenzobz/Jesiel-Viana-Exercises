@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Menu Responsivo</title>
+        <link rel="stylesheet" href="css/estilo.css" />
+        <script async src="js/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="#">Home</a>
+            <nav class="menu">
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+                <a href="#">Login</a>
+            </nav>
+            <span>
+                <ion-icon onclick="expand()" name="menu-outline"></ion-icon>
+            </span>
+        </header>
+        <main>
+            <h1 class="text-center">Atividade de Javascript - Lâmpada</h1>
+            <div class="flex">
+                <div class="border">
+                    <p class="text-center">Clique na lâmpada para acendê-la e apagá-la</p>
+                    <img class="img-fluid" src="img/lampada.jpg" id="lampada-01" />
+                </div>
+                <div class="border">
+                    <p class="text-center">Passe o mouse em cima da lâmpada para acendê-la e apagá-la</p>
+                    <img class="img-fluid" src="img/lampada.jpg" id="lampada-02" />
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
